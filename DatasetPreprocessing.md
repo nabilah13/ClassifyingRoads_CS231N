@@ -9,8 +9,8 @@ dataloader. We will perform two classification tasks using the labels
 from this dataset: predicting the number of lanes on a road, and
 predicting a road’s quality.**
 
-**Start by loading packages. We will use \`\`mapsapi" to query the
-Google Static Maps API. We also fire up the tidyverse for easy dataframe
+**Start by loading packages. We will use “mapsapi” to query the Google
+Static Maps API. We also fire up the tidyverse for easy dataframe
 manipulation.**
 
 ``` r

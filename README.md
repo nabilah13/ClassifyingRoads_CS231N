@@ -1,4 +1,4 @@
-# Classifying Roadways Using Satellite Imagery in Metro Detroit
+# Classifying Road Quality Using Satellite Imagery in Metro Detroit
 ### Nabil Ahmed, David Karamardian, Trent McMullen
 
 Final project for CS231N

@@ -34,10 +34,8 @@ remaining images used for analysis of clusters generated from model embeddings.
 
 ## Part 2: Model Construction for Classification
 
-The construction, training, and evaluation of model architectures is described in main.ipynb. 
-Ultimately, a model that utilized a pretrained version of ResNet50 and an MSE ordinal regression
-loss function was able to achieve acceptable levels of classification accuracy while also creating
-predictions that reflected the ordinal nature of the target labels. 
+The construction, training, and evaluation of model architectures is described in main.ipynb.
+A model using a pretrained version of ResNet-50 was able to achieve >70% classification accuracy on the hand-labeled training and validation sets. Furthermore, two different loss functions were explored (cross-entropy and ordinal regression MSE) to analyze their effects on the model's classification matrix. Saliency maps were also created to visualize which aspects of an image had the greatest influence over the model's class prediction. 
 
 ## Part 3: Contrastive Learning
 

@@ -39,4 +39,4 @@ A model using a pretrained version of ResNet-50 was able to achieve >70% classif
 
 ## Part 3: Clustering (t-SNE) Analysis of Test Set Embeddings
 
-The penultimate layer of our models represent images as 256-dimensional vectors. In clustering.ipynb, t-SNE plots are created to visualize how the road quality categories manifest in these high-dimensional embeddings. We use qualitative analysis of the produced clusters on the test set to evaluate the generalizability of our models in lieu of classification accuracy due to the noisiness of the PASER data labels.
+The penultimate layers of our models represent images as 256-dimensional vectors. In clustering.ipynb, t-SNE plots are created to visualize how the road quality categories manifest in these high-dimensional embeddings. We use qualitative analysis of the produced clusters on the test set to evaluate the generalizability of our models in lieu of classification accuracy due to the noisiness of the PASER data labels.

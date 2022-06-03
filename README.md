@@ -37,10 +37,6 @@ remaining images used for analysis of clusters generated from model embeddings.
 The construction, training, and evaluation of model architectures is described in main.ipynb.
 A model using a pretrained version of ResNet-50 was able to achieve >70% classification accuracy on the hand-labeled training and validation sets. Furthermore, two different loss functions were explored (cross-entropy and ordinal regression MSE) to analyze their effects on the model's classification matrix. Saliency maps were also created to visualize which aspects of an image had the greatest influence over the model's class prediction. 
 
-## Part 3: Contrastive Learning
+## Part 3: Clustering (t-SNE) Analysis of Test Set Embeddings
 
-More to come.
-
-## Part 4: Clustering (t-SNE) Analysis of Test Set Embeddings
-
-More to come.
+The penultimate layer of our models represent images as 256-dimensional vectors. In clustering.ipynb, t-SNE plots are created to visualize how the road quality categories manifest in these high-dimensional embeddings. We use qualitative analysis of the produced clusters on the test set to evaluate the generalizability of our models in lieu of classification accuracy due to the noisiness of the PASER data labels.
